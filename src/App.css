@@ -60,7 +60,7 @@ input {
 .form {
   background-color: #454f84;
   width: fit-content;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
 }
 @media all and (min-width: 576px) {
