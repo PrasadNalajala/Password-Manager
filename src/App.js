@@ -20,7 +20,7 @@ const PasswordItem = props => {
     deleteItem(passwordItem.id)
   }
 
-  const intial=passwordItem.website.charAt(0)
+  const intial = passwordItem.website.charAt(0)
 
   return (
     <li className="item">
