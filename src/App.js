@@ -20,10 +20,12 @@ const PasswordItem = props => {
     deleteItem(passwordItem.id)
   }
 
+  const intial=passwordItem.website.charAt(0)
+
   return (
     <li className="item">
       <div className="profile-container">
-        <div className="profile">P</div>
+        <div className="profile">intial</div>
         <div className="detailsContainer">
           <p className="itemPara">{passwordItem.website}</p>
           <p className="itemPara">{passwordItem.username}</p>
