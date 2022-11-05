@@ -21,6 +21,8 @@ const PasswordItem = props => {
   }
 
   const intial = passwordItem.website.charAt(0)
+  
+  console.log(intial)
 
   return (
     <li className="item">
