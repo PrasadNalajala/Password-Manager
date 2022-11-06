@@ -27,7 +27,7 @@ const PasswordItem = props => {
   return (
     <li className="item">
       <div className="profile-container">
-        <div className="profile">intial</div>
+        <div className="profile">{intial}</div>
         <div className="detailsContainer">
           <p className="itemPara">{passwordItem.website}</p>
           <p className="itemPara">{passwordItem.username}</p>
