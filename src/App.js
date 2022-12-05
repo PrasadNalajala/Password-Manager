@@ -25,6 +25,8 @@ const PasswordItem = props => {
   console.log(intial)
 
   return (
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1946969644990951"
+     crossorigin="anonymous"></script>
     <li className="item">
       <div className="profile-container">
         <div className="profile">{intial}</div>
