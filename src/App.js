@@ -29,7 +29,7 @@ const PasswordItem = props => {
      crossorigin="anonymous"></script>
     <li className="item">
       <div className="profile-container">
-        <div className="profile">{intial}</div>
+        <div className="profile">S</div>
         <div className="detailsContainer">
           <p className="itemPara">{passwordItem.website}</p>
           <p className="itemPara">{passwordItem.username}</p>
